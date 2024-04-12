@@ -1,0 +1,40 @@
+[ HTML ]
+ADD external js script
+INSTRUCT user to go to console.
+
+[ JS ]
+BUILD getComputerChoice function:
+    params: -
+    import random function
+    sort number 0 1 or 2
+    if 0 ==  rock
+    if 1 == paper
+    if 2 == scissors
+    return: sorted number equivalent
+
+BUILD playRound function:
+    params: playerSelection, computerSelection
+    use checkWinner function
+    return: String that declares the winner or tie  of the round
+        example: "You Lose! Paper beats Rock"
+    
+BUILD checkRoundWinner function:
+    params: playerSelection, computerSelection
+    do a case when to every 6 possibilities
+    reduce coding doing if playerSelection == computerSelection
+    return result String
+
+BUILD checkFinalWinner() function:
+    params: countPlayerVictories, countComputerVictories
+    return comparing the two variables:
+    countPlayerVictories > countComputerVictories == Player Won
+    countPlayerVictories < countComputerVictories == Computer Won
+    countPlayerVictories = countComputerVictories == Tie
+    
+BUILD playGame function:
+    params: -
+    play five rounds loop calling playRound function
+    console log every result
+
+RULES 
+- playerSelection and computerSelection should be case-insensitive
