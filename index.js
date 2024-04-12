@@ -26,7 +26,7 @@ function playRound(playerSelection, computerSelection){
 
     console.log((result === 1) ? `You Won! ${playerSelection} beats ${computerSelection}.`
         : (result === 0) ? ` You Lose! ${computerSelection} beats ${playerSelection}.`
-        : `Both Played ${playerSelection}. It's a Tie.`);S
+        : `Both Played ${playerSelection}. It's a Tie.`);
 
     return result;
 }
