@@ -3,11 +3,31 @@
 <head>
     <meta charset="utf-8">
     <title>Odin Rock Paper Scissors</title>
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <h1>Odin Rock Paper Scissors</h1>
-    <p>Please check the <b>console</b> to access the rock paper and scissors game.</p>
-    <p>Press F12 or Right-click > Inspect > Console to access the console.</p>
+    <div id="choiceContainer">
+        <button>Rock</button>
+        <button>Paper</button>
+        <button>Scissors</button>
+    </div>
+    <div id="resultsContainer">
+        <div>
+            <h2 id="playerScore">0</h2>
+            <p>PLAYER</p>
+        </div>
+        X
+        <div>
+            <h2 id="computerScore">0</h2>
+            <p>COMPUTER</p>
+        </div>
+    </div>
+    <div id="resetGameContainer">
+        <button>Reset Game</button>
+    </div>
+    <div id="logResultsContainer">
+    </div>
+    
 </body>
 </html>
