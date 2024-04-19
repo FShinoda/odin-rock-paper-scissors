@@ -2,32 +2,37 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Odin Rock Paper Scissors</title>
     <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.cdnfonts.com/css/buran-ussr" rel="stylesheet">
+    <title>ROCK_PAPER_SCISSORS_</title>
 </head>
 <body>
-    <h1>Odin Rock Paper Scissors</h1>
-    <div id="choiceContainer">
-        <button>Rock</button>
-        <button>Paper</button>
-        <button>Scissors</button>
-    </div>
-    <div id="resultsContainer">
-        <div>
-            <h2 id="playerScore">0</h2>
-            <p>PLAYER</p>
+    <div id="contentContainer">
+        <div id="windowContainer">
+                <div id="windowHeader">
+                    <div id="fileNameContainer">
+                        ROCK_PAPER_SCISSORS_.EXE
+                    </div>
+                </div>
+                <div id="windowBody">
+                    <p>Game ends at five points.
+                        <br>To begin, type:
+                        <br>&emsp;&emsp;<span class="colorRed">>Rock</span> to play ROCK
+                        <br>&emsp;&emsp;<span class="colorRed">>Paper</span> to play PAPER
+                        <br>&emsp;&emsp;<span class="colorRed">>Scissors</span> to play SCISSORS
+                        <br>&emsp;&emsp;or <span class="colorRed">>Restart</span> to restart game
+                    </p>
+                    <h3 id="gameSubtitle">Terminal-like rock paper scissors interactive game</h2>
+                    <h1 id="gameTitle">ROCK_PAPER_SCISSORS_</h1>
+                </div>
+                <div id="inputContainer">
+                    <span id="fixedText">C:\Users\Guest></span><input id="inputTerminal" type="text" onblur="this.focus()" autofocus autocomplete="off">
+                </div>
         </div>
-        X
-        <div>
-            <h2 id="computerScore">0</h2>
-            <p>COMPUTER</p>
+        <div id="creditsContainer">
+            designed and created by Fernanda Shinoda
         </div>
     </div>
-    <div id="resetGameContainer">
-        <button>Reset Game</button>
-    </div>
-    <div id="logResultsContainer">
-    </div>
-    
 </body>
 </html>
