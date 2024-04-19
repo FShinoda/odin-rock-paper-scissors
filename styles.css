@@ -1,0 +1,106 @@
+body, h1, h2, h3 {
+    margin: 0;
+}
+
+body {
+    background-color: #111714;
+    font-family: 'IBM Plex Mono', monospace;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color:#1AFB1D;
+    overflow-y: hidden;
+}
+
+h1, h2 {
+    font-family: 'Buran USSR', sans-serif;
+    color:#DA015B;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 1.5px;     
+}
+
+.colorRed{
+    color:#DA015B
+}
+
+#contentContainer{
+    background-color: #000;
+    margin: 0 60px;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    
+}
+
+#windowContainer{
+    border: solid #1AFB1D 3px;
+    border-top: none;
+    height: 90%;
+}
+
+#windowHeader{
+    background-color: #1AFB1D;
+}
+
+#fileNameContainer{
+    background-color: #000;
+    color: #1AFB1D;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 15px 40px;
+    margin-bottom: 0;
+}
+
+#creditsContainer{
+    background-color: aliceblue;
+}
+
+#windowBody{
+    padding: 30px;
+    padding-bottom: 0px;
+    min-height: 0px;
+    max-height: 700px;
+    overflow-Y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: hidden;
+}
+
+#gameSubtitle{
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.3em;
+    font-size: 16px;
+}
+
+input {
+    background-color: transparent;
+    width: 550px;
+    border: none;
+    padding: 0;
+    color:#1AFB1D;
+    line-height: 1.3em;
+    font-size: 16px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+input:focus{
+    background-color: transparent;
+    border:none;
+    outline: none;
+}
+
+#inputContainer{
+    padding: 30px;
+    padding-top: 0px;
+}
+
+#creditsContainer{
+    text-align: center;
+    padding: 15px;
+    background-color:#111714;
+}
